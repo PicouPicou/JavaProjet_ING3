@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: #0E1036FF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projet_rdv_medical.WelcomeController2">
+   <center>
+      <AnchorPane prefHeight="650.0" prefWidth="702.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="192.0" fitWidth="211.0" layoutX="322.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="loginButton" alignment="CENTER" layoutX="397.0" layoutY="443.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="30.0" prefWidth="55.0" style="-fx-background-color: #0E1036FF; -fx-font-weight: bold; -fx-border-radius: 50px; -fx-border-color: transparent;" text="LOGIN" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.054901961237192154" green="0.06666667014360428" blue="0.21176470816135406" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <ImageView fx:id="bubbleJ23" fitHeight="20.0" fitWidth="38.0" layoutX="623.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ14" fitHeight="20.0" fitWidth="38.0" layoutX="216.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ19" fitHeight="20.0" fitWidth="38.0" layoutX="247.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ18" fitHeight="20.0" fitWidth="38.0" layoutX="118.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ17" fitHeight="20.0" fitWidth="38.0" layoutX="247.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ4" fitHeight="20.0" fitWidth="38.0" layoutX="528.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ2" fitHeight="20.0" fitWidth="38.0" layoutX="349.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ12" fitHeight="20.0" fitWidth="38.0" layoutX="237.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ6" fitHeight="20.0" fitWidth="38.0" layoutX="587.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ20" fitHeight="20.0" fitWidth="38.0" layoutX="339.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ13" fitHeight="20.0" fitWidth="38.0" layoutX="159.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR26" fitHeight="19.0" fitWidth="14.0" layoutX="428.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR27" fitHeight="19.0" fitWidth="14.0" layoutX="491.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR24" fitHeight="19.0" fitWidth="14.0" layoutX="445.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR21" fitHeight="19.0" fitWidth="14.0" layoutX="370.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR3" fitHeight="19.0" fitWidth="14.0" layoutX="637.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR25" fitHeight="19.0" fitWidth="14.0" layoutX="521.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR19" fitHeight="19.0" fitWidth="14.0" layoutX="411.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR23" fitHeight="19.0" fitWidth="14.0" layoutX="377.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR7" fitHeight="19.0" fitWidth="14.0" layoutX="390.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ3" fitHeight="20.0" fitWidth="38.0" layoutX="716.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ5" fitHeight="20.0" fitWidth="38.0" layoutX="439.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ7" fitHeight="20.0" fitWidth="38.0" layoutX="687.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR32" fitHeight="19.0" fitWidth="14.0" layoutX="683.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR33" fitHeight="19.0" fitWidth="14.0" layoutX="637.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR8" fitHeight="19.0" fitWidth="14.0" layoutX="670.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR22" fitHeight="19.0" fitWidth="14.0" layoutX="711.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR5" fitHeight="19.0" fitWidth="14.0" layoutX="677.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR11" fitHeight="19.0" fitWidth="14.0" layoutX="257.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR12" fitHeight="19.0" fitWidth="14.0" layoutX="200.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR14" fitHeight="19.0" fitWidth="14.0" layoutX="193.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ16" fitHeight="20.0" fitWidth="38.0" layoutX="279.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ15" fitHeight="20.0" fitWidth="38.0" layoutX="269.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR2" fitHeight="19.0" fitWidth="14.0" layoutX="180.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR18" fitHeight="19.0" fitWidth="14.0" layoutX="221.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR20" fitHeight="19.0" fitWidth="14.0" layoutX="180.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR15" fitHeight="19.0" fitWidth="14.0" layoutX="214.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR13" fitHeight="19.0" fitWidth="14.0" layoutX="271.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR36" fitHeight="19.0" fitWidth="14.0" layoutX="534.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ22" fitHeight="20.0" fitWidth="38.0" layoutX="481.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ21" fitHeight="20.0" fitWidth="38.0" layoutX="415.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR28" fitHeight="19.0" fitWidth="14.0" layoutX="584.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR29" fitHeight="19.0" fitWidth="14.0" layoutX="647.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR30" fitHeight="19.0" fitWidth="14.0" layoutX="601.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ10" fitHeight="20.0" fitWidth="38.0" layoutX="244.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ1" fitHeight="20.0" fitWidth="38.0" layoutX="177.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR37" fitHeight="19.0" fitWidth="14.0" layoutX="570.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR16" fitHeight="19.0" fitWidth="14.0" layoutX="221.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ11" fitHeight="20.0" fitWidth="38.0" layoutX="307.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ9" fitHeight="20.0" fitWidth="38.0" layoutX="612.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR34" fitHeight="19.0" fitWidth="14.0" layoutX="528.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR10" fitHeight="19.0" fitWidth="14.0" layoutX="242.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR1" fitHeight="19.0" fitWidth="14.0" layoutX="299.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleJ8" fitHeight="20.0" fitWidth="38.0" layoutX="639.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleJaune.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR4" fitHeight="19.0" fitWidth="14.0" layoutX="629.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR31" fitHeight="19.0" fitWidth="14.0" layoutX="521.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bubbleR17" fitHeight="19.0" fitWidth="14.0" layoutX="139.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../bulleRouge.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="heartImage" fitHeight="195.0" fitWidth="203.0" layoutX="321.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../heart.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
